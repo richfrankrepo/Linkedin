@@ -1,0 +1,1 @@
+terraform apply -auto-approve -var="rg_name=RG-Input-Variables-UKW" -var="az_region=UKSouth"
