@@ -19,7 +19,7 @@ foreach($subscription in $colSubscriptions)
 
     foreach ($rg in $colRG)
     {
-       #export-azresourcegroup -ResourceGroupName $rg.resourcegroupname -Path $path -Force -SkipAllParameterization
+       export-azresourcegroup -ResourceGroupName $rg.resourcegroupname -Path $path -Force -SkipAllParameterization
     }
 }
 
